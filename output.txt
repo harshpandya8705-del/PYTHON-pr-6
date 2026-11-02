@@ -1,0 +1,118 @@
+##### Session 1: Errors when the file does not exist
+
+Welcome to Personal Journal Manager!
+Please select an option:
+
+1. Add a New Entry
+2. View All Entries
+3. Search for an Entry
+4. Delete All Entries
+5. Exit
+
+User Input:
+2
+
+No journal entries found. Start by adding a new entry!
+
+User Input:
+3
+
+Enter a keyword or date to search: productive
+
+Error: The journal file does not exist. Please add a new entry first.
+
+User Input:
+4
+No journal entries to delete.
+
+User Input:
+6
+
+Invalid option. Please select a valid option from the menu.
+
+User Input:
+5
+
+Thank you for using Personal Journal Manager. Goodbye!
+
+##### Session 2: Add, view, search and delete
+
+Welcome to Personal Journal Manager!
+Please select an option:
+
+1. Add a New Entry
+2. View All Entries
+3. Search for an Entry
+4. Delete All Entries
+5. Exit
+
+User Input:
+1
+
+Enter your journal entry:
+Today was a productive day. I learned about file handling in Python.
+
+Entry added successfully!
+
+User Input:
+1
+
+Enter your journal entry:
+Had a great session on OOP concepts!
+
+Entry added successfully!
+
+User Input:
+2
+
+Your Journal Entries:
+---------------------------------
+[2026-11-02 06:18:51]
+Today was a productive day. I learned about file handling in Python.
+
+[2026-11-02 06:18:51]
+Had a great session on OOP concepts!
+
+
+User Input:
+3
+
+Enter a keyword or date to search: productive
+
+Matching Entries:
+---------------------------------
+[2026-11-02 06:18:51]
+Today was a productive day. I learned about file handling in Python.
+
+
+User Input:
+3
+
+Enter a keyword or date to search: holiday
+
+No entries were found for the keyword: holiday.
+
+User Input:
+4
+
+Are you sure you want to delete all entries? (yes/no): no
+
+Deletion cancelled. Your entries are safe.
+
+User Input:
+4
+
+Are you sure you want to delete all entries? (yes/no): yes
+
+All journal entries have been deleted.
+
+User Input:
+2
+
+No journal entries found. Start by adding a new entry!
+
+User Input:
+5
+
+Thank you for using Personal Journal Manager. Goodbye!
+

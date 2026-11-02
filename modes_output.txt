@@ -1,0 +1,13 @@
+1. Mode 'x' - exclusive create (fails if file exists)
+   File content after 'x': 'Line 1\n'
+   Second 'x' open -> FileExistsError (file already exists)
+
+2. Mode 'a' - append (keeps old data, adds at the end)
+   File content after 'a': 'Line 1\nLine 2\n'
+
+3. Mode 'r' - read (file must exist)
+   Read: 'Line 1\nLine 2\n'
+   Opening a missing file with 'r' -> FileNotFoundError
+
+4. Mode 'w' - write (OVERWRITES all existing content)
+   File content after 'w': 'Only this line remains\n'
